@@ -203,6 +203,9 @@ main {
     text-align: center;
     padding: 39px;
 }
+.icon:hover{
+    transform:scale(1.5) ;
+}
 
 .icon p {
     font-weight: 600;
@@ -288,6 +291,12 @@ main {
        gap: 15px;
        padding: 0;
 }
+.nav-title {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
 /* header-info styles */
 .header-title {
     font-weight: 600;
@@ -350,6 +359,10 @@ img{
 
 .icon {
     padding: 10px;
+    transition: transform 2s;
+}
+.icon:hover{
+    transform:scale(0.5) rotate(360deg);
 }
 .icon img{
     width: 50%;
